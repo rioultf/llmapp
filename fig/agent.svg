@@ -1,0 +1,95 @@
+<svg width="950" height="1040" viewBox="0 0 950 1040" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill: #fff; stroke-width: 3; }
+    .interface { stroke: #0d6efd; }
+    .orchestrator { stroke: #198754; }
+    .registry { stroke: #dc3545; }
+    .provider { stroke: #fd7e14; }
+    .external { stroke: #6f42c1; }
+    .assemble { stroke: #20c997; }
+    .step-label { font-size: 12px; font-family: sans-serif; fill: #333; }
+    .title { font-size: 18px; font-family: sans-serif; fill: #000; font-weight: bold; }
+  </style>
+
+  <!-- Background -->
+  <rect width="950" height="1040" fill="#f8f9fa" />
+
+  <!-- 1) Interface -->
+  <rect x="50" y="30" width="850" height="120" rx="12" class="box interface"/>
+  <text x="475" y="60" text-anchor="middle" class="title" fill="#0d6efd">1) Interface / Interaction</text>
+  <text x="475" y="90" text-anchor="middle" class="step-label">Open-WebUI ou Frontend (UI)</text>
+  <text x="475" y="110" text-anchor="middle" class="step-label">Saisie du prompt (e.g., “Sensor 1 hauteur ?”)</text>
+
+  <!-- 2) Orchestrateur -->
+  <rect x="50" y="180" width="850" height="160" rx="12" class="box orchestrator"/>
+  <text x="475" y="210" text-anchor="middle" class="title" fill="#198754">2) Orchestrateur / Middleware</text>
+  <text x="475" y="240" text-anchor="middle" class="step-label">AnythingLLM — analyse, routage et workflow</text>
+  <text x="475" y="260" text-anchor="middle" class="step-label">Décide séquence : appel modèle → outil externe → assemblage</text>
+  <text x="475" y="280" text-anchor="middle" class="step-label">Gère RAG, logs, métadonnées, contextes</text>
+
+  <!-- 3a) Modèle local -->
+  <rect x="50" y="370" width="300" height="100" rx="12" class="box registry"/>
+  <text x="200" y="395" text-anchor="middle" class="title" fill="#dc3545">3a) Appel Modèle Local</text>
+  <text x="200" y="417" text-anchor="middle" class="step-label">LM Studio / Ollama</text>
+
+  <!-- 3b) Modèle externe Cloud -->
+  <rect x="500" y="370" width="350" height="100" rx="12" class="box provider"/>
+  <text x="675" y="395" text-anchor="middle" class="title" fill="#fd7e14">3b) Appel Modèle Cloud</text>
+  <text x="675" y="417" text-anchor="middle" class="step-label">OpenAI, Azure, Claude, etc.</text>
+
+  <!-- 4) Outil externe -->
+  <rect x="225" y="510" width="500" height="100" rx="12" class="box external"/>
+  <text x="475" y="540" text-anchor="middle" class="title" fill="#6f42c1">4) Appel Outil Externe</text>
+  <text x="475" y="562" text-anchor="middle" class="step-label">API OpenAPI / fonctions Python / données spécialisées</text>
+
+  <!-- 5) Réponse modèle final -->
+  <rect x="225" y="650" width="500" height="120" rx="12" class="box orchestrator"/>
+  <text x="475" y="680" text-anchor="middle" class="title" fill="#198754">5) Orchestrateur Réinterroge Modèle si nécessaire</text>
+  <text x="475" y="705" text-anchor="middle" class="step-label">Incorpore résultats d’outil</text>
+  <text x="475" y="725" text-anchor="middle" class="step-label">Requête modèle “finale” si besoin (formatage)</text>
+
+  <!-- 6) Assemblage réponse -->
+  <rect x="225" y="820" width="500" height="120" rx="12" class="box assemble"/>
+  <text x="475" y="850" text-anchor="middle" class="title" fill="#20c997">6) Assemblage de la Réponse Finale</text>
+  <text x="475" y="875" text-anchor="middle" class="step-label">Agrégation des sorties modèles et outils</text>
+  <text x="475" y="895" text-anchor="middle" class="step-label">Mise en forme finale pour l’UI</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- 1 -> 2 -->
+  <line x1="475" y1="150" x2="475" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="475" y="165" text-anchor="middle" class="step-label">1 → 2: Prompt reçu par l'orchestrateur</text>
+
+  <!-- 2 -> 3a -->
+  <line x1="200" y1="340" x2="200" y2="370" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="200" y="355" text-anchor="middle" class="step-label">2 → 3a: Appel modèle local</text>
+
+  <!-- 2 -> 3b -->
+  <line x1="675" y1="340" x2="675" y2="370" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="675" y="355" text-anchor="middle" class="step-label">2 → 3b: Appel modèle externe</text>
+
+  <!-- 3a/b -> 4 -->
+  <line x1="200" y1="470" x2="350" y2="510" stroke="#6f42c1" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="675" y1="470" x2="600" y2="510" stroke="#6f42c1" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="475" y="500" text-anchor="middle" class="step-label" fill="#6f42c1">3 → 4: Appel outil externe si requis</text>
+
+  <!-- 4 -> 5 -->
+  <line x1="475" y1="610" x2="475" y2="650" stroke="#198754" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="475" y="630" text-anchor="middle" class="step-label">4 → 5: Résultat outil renvoyé à l’orchestrateur</text>
+
+  <!-- 5 -> 6 -->
+  <line x1="475" y1="770" x2="475" y2="820" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="475" y="795" text-anchor="middle" class="step-label">5 → 6: Résultats intégrés et assemblés</text>
+
+  <!-- 6 -> UI -->
+  <line x1="475" y1="940" x2="475" y2="975" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="475" y="960" text-anchor="middle" class="step-label">6 → UI: Réponse finale envoyée</text>
+
+  <!-- UI result -->
+  <text x="475" y="1010" text-anchor="middle" class="title">Résultat affiché à l’utilisateur</text>
+</svg>
