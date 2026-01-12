@@ -156,6 +156,70 @@ CANN 	Ascend NPU
 * l'IA comme vecteur d'emancipation
 * les informaticien.ne.s sont les premier.e.s touché.e.s par la venue de l'IA. Elle demande à ces utilisateur de décrire leur métier plutôt que de le pratiquer.
 
+## Références externes par chapitre
+
+### 00.Model – Fonctionnement d’un modèle de langue
+
+- **Architecture des Transformers**
+  - [Illustration animée de l’ensemble des étapes d’un LLM](https://bbycroft.net/llm) — visualisation interactive du pipeline complet.
+  - [Transformer expliqué par 3Blue1Brown](https://www.youtube.com/watch?v=wjZofJX0v4M) — introduction visuelle au modèle.
+  - [L’attention expliquée par 3Blue1Brown](https://www.youtube.com/watch?v=eMlx5fFNoYc&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=8) — focus sur le mécanisme d’attention.
+  - [Transformer explainer (Poloclub)](https://poloclub.github.io/transformer-explainer/) — démonstration interactive des poids.
+  - [Transformer illustré (Jay Alammar)](http://jalammar.github.io/illustrated-transformer/) — article pédagogique très illustré.
+  - [Transformer — notes techniques de Jake Tae](https://jaketae.github.io/study/transformer/) — dérivation mathématique.
+  - [Seq2Seq avec attention — Jake Tae](https://jaketae.github.io/study/seq2seq-attention/) — approfondissement du mécanisme encodeur/décodeur.
+  - [Construire GPT from scratch — Andrej Karpathy](https://www.youtube.com/watch?v=kCc8FmEb1nY) — tutoriel vidéo pas à pas.
+  - [Transformer circuits — Anthropic](https://transformer-circuits.pub/2021/framework/index.html) — analyse des composantes internes.
+- **Conception et entraînement**
+  - [Guide de construction d’un LLM depuis zéro — Symbl.ai](https://symbl.ai/developers/blog/a-guide-to-building-an-llm-from-scratch/) — panorama des étapes d’entraînement.
+  - [GPT from scratch — Jake Tae](https://jaketae.github.io/study/gpt/) — implémentation commentée.
+  - [LiveBench](https://livebench.ai/#/) — benchmark de référence pour l’évaluation des modèles.
+- **Chat templates et prompts système**
+  - [Documentation Hugging Face sur les chat templates](https://huggingface.co/docs/transformers/main/en/chat_templating) — formatage des dialogues.
+  - [Prompt système complet de ChatGPT (PromptGenius)](https://www.reddit.com/r/ChatGPTPromptGenius/comments/1h2uxeh/full_starting_prompt_for_chatgpt/)
+  - [Découverte d’un prompt caché de ChatGPT](https://www.reddit.com/r/ChatGPT/comments/1h94hz8/accidentally_discovered_a_prompt_which_gave_me/)
+  - [Guide officiel OpenAI pour la génération de prompts](https://platform.openai.com/docs/guides/prompt-generation)
+  - [Révélation du prompt d’OpenAI (r/ChatGPTCoding)](https://www.reddit.com/r/ChatGPTCoding/comments/1hkudnz/openai_reveals_its_prompt_engineering/)
+
+### 001.Attention – Mécanisme de l’attention
+
+- **Comprendre l’attention séquentielle**
+  - [Seq2Seq avec attention — Jake Tae](https://jaketae.github.io/study/seq2seq-attention/) — base théorique et implémentation.
+  - [Transformer explainer (Poloclub)](https://poloclub.github.io/transformer-explainer/) — visualisation des têtes d’attention.
+  - [L’attention expliquée par 3Blue1Brown](https://www.youtube.com/watch?v=eMlx5fFNoYc&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=8) — vulgarisation en vidéo.
+  - [Transformer circuits — Anthropic](https://transformer-circuits.pub/2021/framework/index.html) — analyse neuronale détaillée.
+  - [Transformer illustré — Jay Alammar](http://jalammar.github.io/illustrated-transformer/) — exemples concrets des poids d’attention.
+
+### 002.Transformer – Architecture des Transformers
+
+- **Ressources fondamentales**
+  - [Illustration animée d’un pipeline Transformer](https://bbycroft.net/llm) — navigation étape par étape.
+  - [Transformer expliqué par 3Blue1Brown](https://www.youtube.com/watch?v=wjZofJX0v4M) — introduction visuelle complète.
+  - [Transformer illustré — Jay Alammar](http://jalammar.github.io/illustrated-transformer/) — synthèse illustrée.
+  - [Transformer — notes techniques de Jake Tae](https://jaketae.github.io/study/transformer/) — formalisation mathématique.
+  - [Seq2Seq avec attention — Jake Tae](https://jaketae.github.io/study/seq2seq-attention/) — articulation encodeur/décodeur.
+  - [Transformer circuits — Anthropic](https://transformer-circuits.pub/2021/framework/index.html) — analyse structurelle approfondie.
+
+### 01.ModelBis – Mise en œuvre d’un modèle de langue
+
+- **Paramétrage de la génération**
+  - [Notes GPT-2 de Jake Tae](https://jaketae.github.io/study/gpt2/#setup) — explication des hyperparamètres (top-k, top-p, température).
+  - [Cohere — paramètres pour de meilleures sorties](https://cohere.com/blog/llm-parameters-best-outputs-language-ai) — bonnes pratiques d’inférence.
+- **Quantification et optimisation**
+  - [Guide Symbl.ai sur la quantization des LLM](https://symbl.ai/developers/blog/a-guide-to-quantization-in-llms/)
+  - [Comprendre les paramètres locaux (r/LocalLLM)](https://www.reddit.com/r/LocalLLM/comments/1hm3x30/finally_understanding_llms_what_actually_matters/)
+  - [Réglages à éviter (r/LocalLLaMA)](https://www.reddit.com/r/LocalLLaMA/comments/17vonjo/your_settings_are_probably_hurting_your_model_why/)
+- **Tokenisation et corpus**
+  - [Introduction à la tokenisation (GeeksforGeeks)](https://www.geeksforgeeks.org/introduction-of-lexical-analysis/)
+  - [Librairie tiktoken d’OpenAI](https://github.com/openai/tiktoken)
+  - [SmolLM Corpus](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus)
+  - [MobileLLM — architecture de référence (arXiv)](https://arxiv.org/pdf/2402.14905)
+  - [Tokenizer Cosmo2 (Hugging Face)](https://huggingface.co/HuggingFaceTB/cosmo2-tokenizer/raw/main/tokenizer.json)
+- **Embeddings et représentations**
+  - [Encodage positionnel relatif — Jake Tae](https://jaketae.github.io/study/relative-positional-encoding/)
+  - [Les vecteurs sont des concepts (Piantadosi, 2024)](https://colala.berkeley.edu/papers/piantadosi2024why.pdf)
+  - [Modèle d’embedding nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5)
+  - [Atlas Nomic des embeddings](https://atlas.nomic.ai/map/nomic-text-embed-v1-5m-sample)
 
 # Ressources
 
