@@ -22,6 +22,7 @@ Les objectifs de ce cours sont :
 * comprendre le fonctionnement d'un LLM
 * maîtriser les interactions avec un LLM (prompt engineering)
 * le mettre en oeuvre pour la réalisation d'une application agent, faisant appel à un outil spécifique
+* développer du code avec un LLM
 * appréhender l'éco-système informatique autour des LLM
 
 ## Cas d'usage
@@ -34,10 +35,12 @@ Les objectifs de ce cours sont :
 # Table des matières
 
 
-* [CM 1 - Fonctionnement d'un modèle de langue](0-Model.md)
-* [CM 1bis - Mise en oeuvre d'un modèle de langue](01-ModelBis.md)
-* [CM 2 - Mise en oeuvre d'un LLM](10.Devops.md)
-* [CM 3 - Prompt Engineering](20.PromptEngineering.md)
+* [CM 0 - Fonctionnement d'un modèle de langue](0-Model.md)
+* [CM 0bis - Mise en oeuvre d'un modèle de langue](01-ModelBis.md)
+* [CM 1 - Mise en oeuvre d'un LLM](10.Devops.md)
+* [CM 2 - Prompt Engineering](20.PromptEngineering.md)
+* [CM 3 - Développement d'un agent](30.OutilsAgent.md)
+* [CM 4 - Coding avec `aider`](40.Coding.md)
 <!--
 * [CM 4 - Interactions avec un système d'information, RAG](rag/rag.md)
 * [CM 5 - Écosystème des LLM](hugging/hugging.md)
@@ -112,6 +115,8 @@ flowchart TD
 4. TP - [PromptEngineering `PromptFoo`](tp/4.PromptFoo.md)
 
 5. TP - Mise en place d'outil - MCP / `AnythingLLM`
+
+6. TP - [Coding avec `aider`]
 
 6. TP - Programmation d'un LLM
 
