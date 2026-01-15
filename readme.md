@@ -118,12 +118,30 @@ flowchart TD
 
 6. TP - [Coding avec `aider`]
 
-6. TP - Programmation d'un LLM
+7. TP - Programmation d'un LLM
 
   * librairie `transformer`et modèle `smollm`
   * définition chat template
   * tokenisation
   * inférence
+
+8. TP - [`OpenWebUI`](tp/6.OpenWebUi.md)
+
+# Devoirs 
+
+## Devoir 1
+
+* choisissez un thème autour de l'IA générative
+* soumettez-le à l'enseignant
+* réalisez une note de synthèse grâce à un chatbot (deux à trois pages) intéressante pour l'enseignant
+* vous rendez un script `promptFoo` dont le résultat est la note de synthèse
+* vous rendez un rapport expliquant la construction du prompt.
+
+## Devoir 2
+
+* en concertation avec l'enseignant, vous concevez un agent MCP sur un LLM
+* vous rendez un rapport sommaire expliquant la conception de votre agent
+* vous effectuez une démonstration à l'enseignant
 
 # Vocabulaire
 
