@@ -1,4 +1,3 @@
----
 author:
 - François Rioult
 lang: fr
@@ -167,7 +166,7 @@ Les deux devoirs partagent une même démarche : concevoir un fichier `promptFoo
 ## Livrables communs
 
 * Un ou plusieurs fichiers `promptFoo` par devoir (format YAML/JSON) qui permettent de rejouer la génération.
-* Un rapport (PDF ou Markdown) pour chaque devoir, résumant la démarche complète.
+* Un rapport (PDF) pour chaque devoir, résumant la démarche complète.
 * Les traces d’exécution ou les extraits pertinents montrant l’évolution des résultats.
 
 Ce format met l’accent sur la méthodologie, l’itération et la documentation formelle de la génération assistée par LLM, tout en explorant un registre technique, un registre narratif et un registre agentiel distincts.
@@ -201,7 +200,7 @@ CANN 	Ascend NPU
 * [self replication](https://www.reddit.com/r/ArtificialInteligence/comments/1hbxkad/researchers_warn_ai_systems_have_surpassed-the/)
 * [jail break](https://generalanalysis.com/blog/jailbreak_cookbook)
 * [le roi du jail break](https://github.com/elder-plinius)
-* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way_not_to-leak_your_system/)
+* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way_not-to-leak-your-system/)
 * [interpretation du llm](https://www.anthropic.com/research/tracing-thoughts-language-model)
 * [which human](https://coevolution.fas.harvard.edu/sites/g/files/omnuum5841/files/culture_cognition_coevol_lab/files/which_humans_09222023.pdf)
 
@@ -270,7 +269,7 @@ CANN 	Ascend NPU
 - **Embeddings et représentations**
   - [Encodage positionnel relatif — Jake Tae](https://jaketae.github.io/study/relative-positional-encoding/)
   - [Les vecteurs sont des concepts (Piantadosi, 2024)](https://colala.berkeley.edu/papers/piantadosi2024why.pdf)
-  - [Modèle d’embedding nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5)
+  - [Modèle d’embedding nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1-5)
   - [Atlas Nomic des embeddings](https://atlas.nomic.ai/map/nomic-text-embed-v1-5m-sample)
 
 # Ressources
