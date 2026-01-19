@@ -59,7 +59,7 @@ Ceci suppose de gérer un *environnement de développement* :
 * l'élément pivot est le *fichier*, qui pourra contenir du texte, ou de la donnée. Ils constituent la mémoire permanente du système.
 * il faut gérer les versions de ses fichiers, par *itérations*. L'idéal est d'utiliser un système dédié : `git`.
 * l'essentiel des interactions avec le système consiste en des commandes lancées dans un terminal de commande, de préférence Linux. Il faut arriver à se passer de la souris.
-* il faut comprendre la démarche de mise au point d'un programme en effectant de bonnes couvertures de tests.
+* il faut comprendre la démarche de mise au point d'un programme en effectuant de bonnes couvertures de tests.
 
 * [CM 0 - Linux](doc/linux.md)
 * [TP 0 - Apprentissage de Linux](doc/linux-tp.md)
@@ -129,43 +129,37 @@ flowchart TD
 
 # Devoirs 
 
-## Devoir 1
+Les deux devoirs partagent une même démarche : concevoir un fichier `promptFoo` complet, l'exécuter avec un LLM (AnythingLLM, LMStudio, etc.), et documenter l'ensemble du processus (choix des instructions système, itérations, réglages). La différence repose sur le registre narratif et le thème exploré.
 
-* choisissez un thème autour de l'IA générative
-* soumettez-le à l'enseignant
-* réalisez une note de synthèse grâce à un chatbot (deux à trois pages) intéressante pour l'enseignant
-* vous rendez un script `promptFoo` dont le résultat est la note de synthèse
-* vous rendez un rapport expliquant la construction du prompt.
+## Devoir 1 — Thème technique autour des LLM
 
-## Devoir 2 — Exploration d'un concept grâce à l'IA
+1. Choisir une problématique technique (outil, pipeline RAG, GraphRAG, agent, orchestration, sécurité, etc.).
+2. Construire un promptFoo structuré visant à générer une note de synthèse de deux à trois pages qui explique ce thème de manière complète : introduction, développement, exemples concrets.
+3. Itérer sur le prompt à partir des retours du modèle, documenter les ajustements et les contraintes appliquées (ton, style, structure).
+4. Produire un rapport décrivant :
+   * la chronologie de conception du prompt (instructions de base, rôle du système, contraintes de format),
+   * les choix pédagogiques adoptés pour fixer le registre technique,
+   * les itérations effectuées et les raisons des ajustements,
+   * les risques identifiés (dérives, hallucinations) et les mesures de mitigation.
 
-Ce devoir remplace l'exercice 2 précédent. Il vise à approfondir un concept lié à l'IA en exploitant les capacités d'un modèle pour explorer, analyser et restituer vos découvertes.
+## Devoir 2 — Légende urbaine autour des LLM
 
-### Thème
+1. Choisir une légende, un mythe ou une histoire urbaine liée aux LLM (l’IA autonome, un jailbreak spectaculaire, une intelligence rebelle, etc.).
+2. Construire un promptFoo qui génère un récit cohérent respectant les contraintes stylistiques suivantes : narration immersive, tons et atmosphères maîtrisés, absence d’emoji.
+3. Documenter le processus de création : segmentation des instructions, choix des exemples, ajustements effectués après chaque exécution.
+4. Produire un rapport décrivant :
+   * le cadrage narratif retenu,
+   * la manière dont le promptFoo garantit la cohérence sur plusieurs tours,
+   * les itérations menées et les corrections apportées,
+   * la mise en évidence des éléments fictifs versus les faits techniques solides.
 
-Exploration d'un concept relatif à l'IA grâce à l'utilisation de l'IA.
+## Livrables communs
 
-### Concepts à étudier
+* Un ou plusieurs fichiers `promptFoo` par devoir (format YAML/JSON) qui permettent de rejouer la génération.
+* Un rapport (PDF ou Markdown) pour chaque devoir, résumant la démarche complète.
+* Les traces d’exécution ou les extraits pertinents montrant l’évolution des résultats.
 
-* AI Slop
-* Multi-turn interactions
-* Machine unlearning
-* Prompt injection
-* Jailbreak in AI systems
-* Self-replication in AI
-* Techniques to prevent prompt system discovery
-* LLM interpretation
-* Which human: AI-human interaction dynamics
-
-### Tâches à réaliser
-
-1. Choisissez un concept parmi la liste fournie ou en concertation avec l'enseignant.
-2. Utilisez les capacités de l'IA pour explorer et approfondir ce concept.
-3. Réalisez une analyse ou une étude basée sur les données générées par l'IA afin de mieux comprendre le concept choisi.
-4. Créez un poster présentant de manière visuelle les résultats de votre exploration et la contribution de l'IA à votre compréhension du concept.
-5. Rédigez un rapport au format PDF détaillant les prompts utilisés pour produire le poster et expliquant leur rôle dans l'exploration du concept.
-
-Ce devoir permet d'approfondir la connaissance d'un concept lié à l'IA en utilisant l'IA pour explorer et analyser le sujet, puis de présenter les découvertes de manière synthétique grâce à un poster, tout en documentant précisément les prompts employés pour cette exploration.
+Ce format met l’accent sur la méthodologie, l’itération et la documentation formelle de la génération assistée par LLM, tout en explorant un registre technique et un registre narratif distincts.
 
 # Vocabulaire
 
