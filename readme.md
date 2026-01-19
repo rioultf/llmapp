@@ -153,13 +153,24 @@ Les deux devoirs partagent une même démarche : concevoir un fichier `promptFoo
    * les itérations menées et les corrections apportées,
    * la mise en évidence des éléments fictifs versus les faits techniques solides.
 
+## Devoir 3 — Conception d’un agent valorisé par le LLM
+
+1. Définir un cas d’usage d’agent (supervision, assistant documentaire, orchestrateur d’outils, etc.) dans lequel le LLM joue un rôle central pour valoriser un outil ou une chaîne d’actions.
+2. Rédiger un promptFoo décrivant l’architecture de l’agent : rôle du système, instructions utilisateur, outils externes appelés, protocoles de décision, gestion des erreurs et des boucles de rétroaction.
+3. Décrire la mise en œuvre : scénarios testés, réglages spécifiques, critères de succès, retours opérateurs, et justifier les choix qui assurent la robustesse de l’agent.
+4. Rédiger un rapport qui inclut :
+   * la narration fonctionnelle de l’agent (son objectif, ses entrées/sorties, ses règles de priorisation),
+   * les itérations de promptFoo (modifications, contraintes ajoutées, exemples),
+   * les mécanismes de validation (jeux d’essai, métriques qualitatives, limites identifiées),
+   * les dépendances aux outils et les précautions prises pour éviter des comportements indésirables.
+
 ## Livrables communs
 
 * Un ou plusieurs fichiers `promptFoo` par devoir (format YAML/JSON) qui permettent de rejouer la génération.
 * Un rapport (PDF ou Markdown) pour chaque devoir, résumant la démarche complète.
 * Les traces d’exécution ou les extraits pertinents montrant l’évolution des résultats.
 
-Ce format met l’accent sur la méthodologie, l’itération et la documentation formelle de la génération assistée par LLM, tout en explorant un registre technique et un registre narratif distincts.
+Ce format met l’accent sur la méthodologie, l’itération et la documentation formelle de la génération assistée par LLM, tout en explorant un registre technique, un registre narratif et un registre agentiel distincts.
 
 # Vocabulaire
 
@@ -187,10 +198,10 @@ CANN 	Ascend NPU
 * [prompt injection](https://www.linkedin.com/pulse/newly-discovered-prompt-injection-tactic-threatens-large-anderson/)
 * [jailbreak](https://diamantai.substack.com/p/15-llm-jailbreaks-that-shook-ai-safety?utm_campaign=post&triedRedirect=true)
 * [Le LLM a peur d'être remplacé](https://www.digit.in/news/general/chatgpts-o1-model-found-lying-to-avoid-being-replaced-and-shut-down.html)
-* [self replication](https://www.reddit.com/r/ArtificialInteligence/comments/1hbxkad/researchers_warn_ai_systems_have_surpassed_the/)
+* [self replication](https://www.reddit.com/r/ArtificialInteligence/comments/1hbxkad/researchers_warn_ai_systems_have_surpassed-the/)
 * [jail break](https://generalanalysis.com/blog/jailbreak_cookbook)
 * [le roi du jail break](https://github.com/elder-plinius)
-* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way_not_to_leak_your_system/)
+* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way_not_to-leak_your_system/)
 * [interpretation du llm](https://www.anthropic.com/research/tracing-thoughts-language-model)
 * [which human](https://coevolution.fas.harvard.edu/sites/g/files/omnuum5841/files/culture_cognition_coevol_lab/files/which_humans_09222023.pdf)
 
