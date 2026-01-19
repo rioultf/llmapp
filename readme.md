@@ -137,11 +137,35 @@ flowchart TD
 * vous rendez un script `promptFoo` dont le résultat est la note de synthèse
 * vous rendez un rapport expliquant la construction du prompt.
 
-## Devoir 2
+## Devoir 2 — Exploration d'un concept grâce à l'IA
 
-* en concertation avec l'enseignant, vous concevez un agent MCP sur un LLM
-* vous rendez un rapport sommaire expliquant la conception de votre agent
-* vous effectuez une démonstration à l'enseignant
+Ce devoir remplace l'exercice 2 précédent. Il vise à approfondir un concept lié à l'IA en exploitant les capacités d'un modèle pour explorer, analyser et restituer vos découvertes.
+
+### Thème
+
+Exploration d'un concept relatif à l'IA grâce à l'utilisation de l'IA.
+
+### Concepts à étudier
+
+* AI Slop
+* Multi-turn interactions
+* Machine unlearning
+* Prompt injection
+* Jailbreak in AI systems
+* Self-replication in AI
+* Techniques to prevent prompt system discovery
+* LLM interpretation
+* Which human: AI-human interaction dynamics
+
+### Tâches à réaliser
+
+1. Choisissez un concept parmi la liste fournie ou en concertation avec l'enseignant.
+2. Utilisez les capacités de l'IA pour explorer et approfondir ce concept.
+3. Réalisez une analyse ou une étude basée sur les données générées par l'IA afin de mieux comprendre le concept choisi.
+4. Créez un poster présentant de manière visuelle les résultats de votre exploration et la contribution de l'IA à votre compréhension du concept.
+5. Rédigez un rapport au format PDF détaillant les prompts utilisés pour produire le poster et expliquant leur rôle dans l'exploration du concept.
+
+Ce devoir permet d'approfondir la connaissance d'un concept lié à l'IA en utilisant l'IA pour explorer et analyser le sujet, puis de présenter les découvertes de manière synthétique grâce à un poster, tout en documentant précisément les prompts employés pour cette exploration.
 
 # Vocabulaire
 
