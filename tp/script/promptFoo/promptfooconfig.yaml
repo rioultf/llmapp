@@ -11,16 +11,6 @@ providers:
 
   - id: openrouter:openai/gpt-3.5-turbo
 
-  - id: https
-    config:
-      url: 'http://0.0.0.0:1234/v1/chat/completions'
-      method: 'POST'
-      body:
-        model: 'smollm2-1.7b-instruct'
-        messages: '{{prompt}}'
-      transformResponse: 'json.choices[0].message.content'
-      maxTokens: 300
-
 tests:
   - vars:
       file: file://data/mail1.txt
