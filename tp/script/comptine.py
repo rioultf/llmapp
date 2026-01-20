@@ -7,7 +7,6 @@ le texte sur stdout pour redirection si besoin.
 
 import sys
 import argparse
-import tiktoken
 
 # Fonction qui compte les tokens d'un texte
 def count_tokens(text: str, encoding_name: str = "cl100k_base") -> int:
@@ -44,8 +43,5 @@ args = parser.parse_args()
 comptine = generate_song(args.repeat)
 
 # Comptage des tokens
-n_tokens = count_tokens(comptine)
-
 # Sorties
 print(f"{comptine}", end="")
-print(f"Nombre de tokens estimés : {n_tokens}", file=sys.stderr)
