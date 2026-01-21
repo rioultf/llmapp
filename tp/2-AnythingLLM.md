@@ -72,7 +72,10 @@ uv init mcp-server-demo
 cd mcp-server-demo/
 uv add "mcp[cli]"
 source .venv/bin/activate
-mcp dev mcp-server-demo.py
+```
+* y mettre le fichier de [description des services MCP](script/mcp-server-demo/mcp-server-demo.py)
+
+```mcp dev mcp-server-demo.py
 ```
 
 After that I can connect to http://127.0.0.1:6274 and test the server.
