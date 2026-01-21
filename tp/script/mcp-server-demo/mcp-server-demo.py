@@ -12,15 +12,14 @@ def add(a: int, b: int) -> int:
     return a + b
 
 @mcp.tool()
-def level(sensor: int) -> str:
+def level(sensor: int) -> int:
     """Returns the level at given sensor"""
     if sensor == 1:
-        return {"level":10.0}
-    return {"level":24.0}
+        return 10.0
+    return 24.0
 
 # Add a dynamic greeting resource
 @mcp.resource("greeting://{name}")
 def get_greeting(name: str) -> str:
     """Get a personalized greeting"""
     return f"Hello, {name}!"
-
