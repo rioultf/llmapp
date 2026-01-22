@@ -34,8 +34,8 @@ Les objectifs de ce cours sont :
 # Table des matières
 
 
-* [CM 0 - Fonctionnement d'un modèle de langue](00-Model.md)
-* [CM 0bis - Mise en oeuvre d'un modèle de langue](01-ModelBis.md)
+* [CM 0 - Fonctionnement d'un modèle de langue](00.Model.md)
+* [CM 0bis - Mise en oeuvre d'un modèle de langue](01.ModelBis.md)
 * [CM 1 - Mise en oeuvre d'un LLM](10.Devops.md)
 * [CM 2 - Prompt Engineering](20.PromptEngineering.md)
 * [CM 3 - Développement d'un agent](30.OutilsAgent.md)
