@@ -64,33 +64,55 @@ Ceci suppose de gérer un *environnement de développement* :
 * [TP 0 - Apprentissage de Linux](doc/linux-tp.md)
 
 <!---------------------------------------------------------------->
-# Principe fonctionnel
+# Principes fonctionnels
 
 <img src="fig/agent.svg">
 
 ```mermaid
-flowchart TD
-    A[Utilisateur: Prompt Sensor1 hauteur ?]
-    B[Orchestrateur - AnythingLLM]
-    C[chat completion APIs - LMStudio / OpenRouter]
-    D[Outil Externe API]
-    E[Réinterrogation Modèle Final]
-    F[Assemblage Réponse]
-    UI[UI Final affichage]
+flowchart LR
 
-    A --> B
-    B --> C
+  subgraph LLM[Structure de l'API pour LLM]
+    req((query))
 
-    C --> B
+    subgraph Agent
+      sys["sys prompt"]
+      subgraph Provider
+        OR[OR key]
+        R{{LLM}}
+      end
+      sys --> R
+    end
 
-    B --> D
-    D --> B
 
-    B --> E
-    E --> B
+    req ==> R
+    OR --> R
+    R ==> rep((answer))
+  end
+```
 
-    B --> F
-    F --> UI
+```mermaid
+flowchart LR
+subgraph "Agent par orchestration d'outil"
+    req((query))
+    MCP
+    code{{Local execution}}
+
+    subgraph Agent["Orchestrateur"]
+        LLM1{{"LLM *with* tools"}}
+        LLM2{{"LLM *no* tools"}}
+
+    end
+  
+  LLM1 -- "(tool, params)" --> MCP
+    MCP --> code
+    MCP -- "Tools" --> LLM1
+    req --> LLM1
+    code --> MCP
+    MCP --> LLM2
+    req --> LLM2
+
+  LLM2 --> rep((answer))
+end
 ```
 
 <!---------------------------------------------------------------->
@@ -113,7 +135,7 @@ flowchart TD
 
 4. TP - [PromptEngineering `PromptFoo`](tp/4.PromptFoo.md)
 
-5. TP - Mise en place d'outil - MCP / `AnythingLLM`
+5. TP - [Mise en place d'outil - MCP / `AnythingLLM`](tp/5.MCP.md)
 
 6. TP - [Coding avec `aider`]
 
