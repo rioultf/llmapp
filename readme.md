@@ -34,7 +34,7 @@ Les objectifs de ce cours sont :
 # Table des matières
 
 
-* [CM 0 - Fonctionnement d'un modèle de langue](0-Model.md)
+* [CM 0 - Fonctionnement d'un modèle de langue](00-Model.md)
 * [CM 0bis - Mise en oeuvre d'un modèle de langue](01-ModelBis.md)
 * [CM 1 - Mise en oeuvre d'un LLM](10.Devops.md)
 * [CM 2 - Prompt Engineering](20.PromptEngineering.md)
@@ -150,9 +150,9 @@ end
 
 # Devoirs 
 
-Les deux devoirs partagent une même démarche : concevoir un fichier `promptFoo` complet, l'exécuter avec un LLM (AnythingLLM, LMStudio, etc.), et documenter l'ensemble du processus (choix des instructions système, itérations, réglages). La différence repose sur le registre narratif et le thème exploré.
+Les deux premiers devoirs partagent une même démarche : concevoir un fichier `promptFoo` complet, l'exécuter avec un LLM (AnythingLLM, LMStudio, etc.), et documenter l'ensemble du processus (choix des instructions système, itérations, réglages). La différence repose sur le registre narratif et le thème exploré.
 
-## Devoir 1 — Thème technique autour des LLM
+## Devoir 1 — *Thème technique* autour des LLM
 
 1. Choisir une problématique technique (outil, pipeline RAG, GraphRAG, agent, orchestration, sécurité, etc.).
 2. Construire un promptFoo structuré visant à générer une note de synthèse de deux à trois pages qui explique ce thème de manière complète : introduction, développement, exemples concrets.
@@ -163,7 +163,7 @@ Les deux devoirs partagent une même démarche : concevoir un fichier `promptFoo
    * les itérations effectuées et les raisons des ajustements,
    * les risques identifiés (dérives, hallucinations) et les mesures de mitigation.
 
-## Devoir 2 — Légende urbaine autour des LLM
+## Devoir 2 — *Légende urbaine* autour des LLM
 
 1. Choisir une légende, un mythe ou une histoire urbaine liée aux LLM (l’IA autonome, un jailbreak spectaculaire, une intelligence rebelle, etc.).
 2. Construire un promptFoo qui génère un récit cohérent respectant les contraintes stylistiques suivantes : narration immersive, tons et atmosphères maîtrisés, absence d’emoji.
