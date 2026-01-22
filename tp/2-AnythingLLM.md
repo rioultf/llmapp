@@ -10,7 +10,7 @@ subtitle: Environnement de développement
 
 * permet d'exposer l'API d'un agent, valorisant un provider (instance/admin/pref/enable network discovery)
 * gestion de clé d'accès API
-* plugin navigateur
+* plugin navigateur ?
 * peut définir agents en appelant des serveurs MCP.
 
 On ne l'utilisera pas pour interroger de façon critique un modèle personnalisé, l'interface n'est pas faite pour cela. Pour cet usage, on préférera `LMStudio` ou `OpenWebUi`.
@@ -76,6 +76,8 @@ C'est assez pauvre et peu paramétrable.
 
 # TP - Mise en place d'un agent MCP
 
+[Intégration MCP pour `AnythingLLM`](5.MCP.md)
+
 ## Correction du bug à l'initialisation
 
 1. lancer `anythingllm`
@@ -102,8 +104,3 @@ This path will then be using the STORAGE_LOCATION directory that you defined whe
 ### Notes
 
 Not all LLM Models works well as Agents, you may need to use higher quantization models for better responses. Example: Llama 3 8B 8Bit Quantization gives better responses as an Agent
-
-# Poursuite du travail
-
-[Intégration MCP pour `AnythingLLM`](5.MCP.md)
-

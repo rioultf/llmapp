@@ -195,21 +195,20 @@ Ce format met l’accent sur la méthodologie, l’itération et la documentatio
 
 # Vocabulaire
 
-* Backend - Devices - hug - repository
+1. Concepts fondamentaux
 
-Ex. pour Llama.cpp
+   LLM, Transformer, attention, résumé global unique, mécanisme de pondération locale, query, key,      
+   value, bloc Transformer, attention croisée, logit, embedding, tokenizer, chat template, system       
+   prompt, endpoint, dataset, benchmark.                                                                
+ 2. Méthodes et pratiques
 
-Backend 	Target devices
-Metal 	Apple Silicon
-BLAS 	All
-BLIS 	All
-SYCL 	Intel and Nvidia GPU
-MUSA 	Moore Threads MTT GPU
-CUDA 	Nvidia GPU
-HIP 	AMD GPU
-Vulkan 	GPU
-CANN 	Ascend NPU
+   prompt engineering, zero-shot, few-shot, chain-of-thought, métacognition, RAG, Quantization-Aware    
+   Training, Post-Training Quantization, boucle edit/test/undo, commande, requête, commit.              
+ 
+ 3. Écosystème et infrastructures
 
+   agent, provider, registre, backend, devices, repository, orchestration framework, MCP, mcpo,         
+   PocketFlow, AnythingLLM, OpenWebUI, LM Studio, Ollama, Llama.cpp, OpenRouter, PromptFoo.             
 
 # Concepts
 
