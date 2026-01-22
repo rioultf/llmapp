@@ -97,21 +97,21 @@ subgraph "Agent par orchestration d'outil"
     MCP
     code{{Local execution}}
 
-    subgraph Agent["Orchestrateur"]
+    subgraph Agent["Orchestrator"]
         LLM1{{"LLM *with* tools"}}
         LLM2{{"LLM *no* tools"}}
 
     end
   
-  LLM1 -- "(tool, params)" --> MCP
-    MCP --> code
+  LLM1 == "(tool, params)" ==> MCP
+    MCP ==> code
     MCP -- "Tools" --> LLM1
-    req --> LLM1
-    code --> MCP
-    MCP --> LLM2
-    req --> LLM2
+    req ==> LLM1
+    code ==> MCP
+    MCP ==> LLM2
+    req -.-> LLM2
 
-  LLM2 --> rep((answer))
+  LLM2 ==> rep((answer))
 end
 ```
 
