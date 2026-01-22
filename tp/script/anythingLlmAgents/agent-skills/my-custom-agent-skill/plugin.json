@@ -1,0 +1,4 @@
+{
+  "name": "This is my human readable name",
+  "hubId": "my-custom-agent-skill" // THIS MUST BE THE SAME AS THE parent folder name. Can be any string.
+}

@@ -19,7 +19,7 @@ On ne l'utilisera pas pour interroger de façon critique un modèle personnalis�
 
 <https://docs.anythingllm.com/installation-desktop/linux#install-using-the-installer-script>
 
-2.3G
+2.3G : pourquoi ? `AnythingLLM` utilise ses propres modèles pour 
 
 # Paramétrage
 
@@ -28,7 +28,7 @@ On ne l'utilisera pas pour interroger de façon critique un modèle personnalis�
 * Generic OpenAI : permet d'interroger toute API `chat_completions` dont on connaît l'URL. Utile pour inférer sur un modèle local, servi par le *registre* adéquat.
 * OpenRouter : copier la clé d'API
 
-Les autre paramètres concernent la fourniture d'autres IA : base de données documentaires, embedding, chunking, voix, modèle de transcription de parole.
+Les autres paramètres concernent la fourniture d'autres IA&nbsp;: base de données documentaires, embedding, chunking, voix, modèle de transcription de parole.
 
 ## Admin
 
@@ -85,16 +85,17 @@ The server has to be launched in the correct environment.
 
 This is also true when using AnythingLLM is you want him to correctly launch your servers.
 
+```bash
 export STORAGE_LOCATION=$HOME/anythingllm && \
 mkdir -p $STORAGE_LOCATION && \
 touch "$STORAGE_LOCATION/.env"
-
-
-
-
-
+```
 
 ### Notes
 
 Not all LLM Models works well as Agents, you may need to use higher quantization models for better responses. Example: Llama 3 8B 8Bit Quantization gives better responses as an Agent
+
+# Poursuite du travail
+
+[Intégration MCP pour `AnythingLLM`](5.MCP.md)
 

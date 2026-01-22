@@ -248,12 +248,7 @@ Les synonymes pédagogiques sont évités.
 > * des diagrammes Mermaid
 > * des résumés fonctionnels
 
+Ne fais des diagrammes que si je te le demande.
+
 Le texte sert à orienter l’interprétation, pas à remplacer le formalisme.
 
----
-
-Si tu le souhaites, je peux ensuite :
-
-* appliquer ce guide à la **section attention complète**
-* générer un **template Markdown normé**
-* produire une **checklist de relecture automatique**

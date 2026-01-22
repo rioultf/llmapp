@@ -1,0 +1,45 @@
+{
+  "active": true,
+
+  "name": "Mona Gent",
+  "hubId": "agent1", // THIS MUST BE THE SAME AS THE parent folder name. Can be any string.
+
+  "schema": "skill-1.0.0",
+  "version": "1.0.0",
+  "description": "Gets the weather for a given location latitude and longitude using the open-meteo API",
+  "author": "@rioultf",
+  "author_url": "http://boita.org",
+  "license": "MIT",
+
+  "examples": [
+    {
+      "prompt": "What is the weather in Tokyo?",
+      "call": "{\"latitude\": 35.6895, \"longitude\": 139.6917}"
+    },
+    {
+      "prompt": "What is the weather in San Francisco?",
+      "call": "{\"latitude\": 37.7749, \"longitude\": -122.4194}"
+    },
+    {
+      "prompt": "What is the weather in London?",
+      "call": "{\"latitude\": 51.5074, \"longitude\": -0.1278}"
+    }
+  ],
+ 
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {
+      "latitude": {
+        "description": "Latitude of the location",
+        "type": "string"
+      },
+      "longitude": {
+        "description": "Longitude of the location",
+        "type": "string"
+      }
+    }
+  },
+ 
+  "imported": true
+
+}
