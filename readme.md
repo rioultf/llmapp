@@ -35,7 +35,10 @@ Les objectifs de ce cours sont :
 
 
 * [CM 0 - Fonctionnement d'un modèle de langue](00.Model.md)
-* [CM 0bis - Mise en oeuvre d'un modèle de langue](01.ModelBis.md)
+* [CM 01 - Mise en oeuvre d'un modèle de langue](01.ModelBis.md)
+* [CM 001 - Mécanisme de l'attention](01.ModelBis.md)
+* [CM 002 - Transformers](002.Transformers.md)
+* [CM 02 - Hiérarchie des modèles](02.ModelHierachy.md)
 * [CM 1 - Mise en oeuvre d'un LLM](10.Devops.md)
 * [CM 2 - Prompt Engineering](20.PromptEngineering.md)
 * [CM 3 - Développement d'un agent](30.OutilsAgent.md)
