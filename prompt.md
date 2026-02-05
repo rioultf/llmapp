@@ -1,6 +1,3 @@
-Voici la **version mise à jour et stabilisée du guide de rédaction**, intégrant **explicitement l’obligation de produire un diagramme Mermaid pour toute équation mathématique**, **sans aucun usage d’emoji**, et cohérente avec ton formalisme actuel.
-
----
 
 # Guide de rédaction — Modèles séquentiels, attention et Transformers
 
