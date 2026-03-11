@@ -35,7 +35,10 @@ Les objectifs de ce cours sont :
 
 
 * [CM 0 - Fonctionnement d'un modèle de langue](00.Model.md)
-* [CM 0bis - Mise en oeuvre d'un modèle de langue](01.ModelBis.md)
+* [CM 01 - Mise en oeuvre d'un modèle de langue](01.ModelBis.md)
+* [CM 001 - Mécanisme de l'attention](01.ModelBis.md)
+* [CM 002 - Transformers](002.Transformers.md)
+* [CM 02 - Hiérarchie des modèles](02.ModelHierachy.md)
 * [CM 1 - Mise en oeuvre d'un LLM](10.Devops.md)
 * [CM 2 - Prompt Engineering](20.PromptEngineering.md)
 * [CM 3 - Développement d'un agent](30.OutilsAgent.md)
@@ -48,7 +51,25 @@ Les objectifs de ce cours sont :
 >
 
 <!---------------------------------------------------------------->
+# Sommaire thématique
 
+## 1. Comprendre les fondations des LLM
+- **Architecture et mécanismes** : [CM 0](00.Model.md) et [CM 001](01.ModelBis.md) présentent les briques d’un modèle de langue, de la tokenisation aux changements d’état, en passant par les séquences et l’attention.
+- **Transformers et hiérarchie** : [CM 002](002.Transformers.md) et [CM 02](02.ModelHierachy.md) approfondissent la structure des Transformers et la modularité des architectures séquentielles, pour saisir la logique de conception d’un LLM.
+
+## 2. Déployer, piloter et intégrer un LLM
+- **Mise en œuvre technique** : [CM 1](10.Devops.md) détaille les outils et pratiques pour déployer un endpoint, surveiller l’usage et gérer la sécurité.
+- **Prompt Engineering et interfaces** : [CM 2](20.PromptEngineering.md) explique la conception de prompts, la construction de chat templates et la gestion des itérations qualité/contrôle.
+- **Agents et orchestration** : [CM 3](30.OutilsAgent.md) décrit la construction d’agents, l’orchestration d’outils et la supervision de chaînes d’actions pilotées par LLM.
+
+## 3. Production et expérimentation assistée
+- **Coding assisté** : [CM 4](40.Coding.md) voit comment exploiter des assistants comme `aider` pour accélérer l’écriture, la revue et les tests de code.
+- **Travaux pratiques** : les TP (voir section dédiée plus bas) valident les compétences via des déploiements concrets — VDI, BashAPI, AnythingLLM, promptFoo, MCP, OpenWebUI, etc.
+- **Ressources complémentaires** : les références tout au long du cours offrent des points d’ancrage pour approfondir (vidéos, articles, outils Open Source).
+
+Ce sommaire thématique permet de repérer rapidement les axes structurants du cours et d’identifier les ressources associées à chaque domaine d’apprentissage.
+
+<!---------------------------------------------------------------->
 # Compétences pré-recquises
 
 L'utilisation de LLM se fait ici dans un contexte de *développement informatique*. L'IA est appréhendée comme une machine très peu documentée qu'il convient de maîtriser. Il sera donc nécessaire de procéder à de nombreuses *itérations*.
@@ -221,7 +242,7 @@ Ce format met l’accent sur la méthodologie, l’itération et la documentatio
 * [self replication](https://www.reddit.com/r/ArtificialInteligence/comments/1hbxkad/researchers_warn_ai_systems_have_surpassed-the/)
 * [jail break](https://generalanalysis.com/blog/jailbreak_cookbook)
 * [le roi du jail break](https://github.com/elder-plinius)
-* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way_not-to-leak-your-system/)
+* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way-not-to-leak-your-system/)
 * [interpretation du llm](https://www.anthropic.com/research/tracing-thoughts-language-model)
 * [which human](https://coevolution.fas.harvard.edu/sites/g/files/omnuum5841/files/culture_cognition_coevol_lab/files/which_humans_09222023.pdf)
 
