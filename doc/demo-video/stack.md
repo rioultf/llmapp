@@ -14,7 +14,7 @@
 
 - **OS** : Linux, avec terminal orienté productivité (GNOME Terminal, Alacritty, tmux).
 - **Éditeur** : VS Code (Remote - Containers ou équivalent) pour juxtaposer édition + résultats.
-- **Langages** : Python 3.11, Shell et JavaScript/Node.js (cf. scripts `tp/script/*`).
+- **Langages et environnement** : compréhension des services/tiers exposés dans les scripts, la navigation dans le système de fichiers et le maniement du terminal sont prioritaires ; Python est utilisé seulement ponctuellement, au besoin.
 - **Outils de gestion** : `git`, `pip`, `npm`, `uv`, et scripts personnalisés (`init.sh`, `chatCompletions*.sh`).
 
 ---
