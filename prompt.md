@@ -16,9 +16,7 @@ Exemple :
 ```markdown
 On considère une séquence d’entrée :
 
-[
-(x_1, x_2, \dots, x_T)
-]
+$(x_1, x_2, \dots, x_T)$
 ```
 
 `\dots` est autorisé pour les suites indexées.
