@@ -2,33 +2,32 @@
 
 ---
 
-## Scène 1 : Introduction
+## Scène 1 : Mise en contexte pédagogique
 
-- Présenter le contexte : assistant IA en action, capture de l’interface VS Code et terminal.
-- Mentionner les outils disponibles (scripts + agent).
-
----
-
-## Scène 2 : Démarrage de l’environnement
-
-- Lancer `./tp/script/init.sh` dans le terminal.
-- Montrer l’agent MCP en arrière-plan (par exemple `python tp/script/mcp-server-demo/main.py`).
+- Introduire le cours “Application des LLM” décrit dans `readme.md` (objectif : comprendre les fondations, prompt engineering, agents).
+- Filmer la fenêtre VS Code + terminal, expliquer l’usage de `git` et la posture Linux recommandée.
 
 ---
 
-## Scène 3 : Collaboration IA
+## Scène 2 : Départ de la stack
 
-- Ouvrir `chatCompletions.sh` ou VS Code + prompt manager.
-- Écrire une requête, montrer la suggestion de l’IA.
-- Appliquer la modification proposée dans le code.
-- Résultat immédiat dans un terminal (tests unitaires, exécution rapide).
+- Lancer `./tp/script/init.sh` puis évoquer les TP 0-6 comme chemins d’apprentissage progressif.
+- Montrer rapidement l’architecture décrite dans le README (schémas, flowchart) à travers les fichiers `fig/*.svg`.
 
 ---
 
-## Scène 4 : Récapitulatif
+## Scène 3 : Collaboration avec l’IA
 
-- Montrer les captures d’écran prises : terminal, code, intégration IA.
-- Rappeler les étapes clés du workflow.
-- Mentionner les ressources disponibles dans le dépôt (`tp/script/...`, `sources/...`).
+- Interroger l’IA via `chatCompletions.sh`, PromptFoo ou l’interface OpenWebUI (cf. TP 4 et démos agent).
+- Appliquer la suggestion dans un fichier du dépôt et exécuter les tests/scripte (MCP Server Demo, `mcp-server-demo.py`).
+- Illustrer la boucle édit/test/undo mise en avant dans le README.
+
+---
+
+## Scène 4 : Synthèse et ressources
+
+- Afficher les captures d’écran : terminal, éditeur, interface IA et résultats.
+- Rappeler les ressources clés (CM 0-4, TP 0-6, promptFoo, agent MCP) et la démarche d’itération documentée.
+- Inviter à consulter `readme.md` pour prolonger la découverte.
 
 ```
