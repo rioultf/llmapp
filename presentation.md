@@ -10,10 +10,10 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 ## 2. Déroulé (90 mn + 30 mn Q&A)
 
 ### Partie 1 — Usages & architecture (35 mn)
-1. Présentation rapide de cas d’usage réels : service client, agent de supervision, déploiement d’un RAG.
-2. Cartographie des composants : prompt, LLM, API `chat_completions`, outils tiers, orchestration.
-3. Mise en perspective des contraintes (sécurité, coût, latence) et des indicateurs de succès.
-4. Transition vers les démonstrations : quelles données on alimente, quel outil on appelle.
+1. Présentation des applications que tu as développées : le pipeline Airflow IMAP → classification → SQLite (DAGs `imap_poll_classify_and_trigger`, `classify_emails`, `index_classification_to_sqlite`, prompt `prompts/prompt2.md` et modèle OpenRouter) et l’agent AILE (Assistant Intelligent pour le Libre-Élan) qui combine météo, NOTAM et conseils pour le vol libre.
+2. Cartographie des composants : prompt, LLM, API `chat_completions`, opérateurs Airflow ou modules d’orchestration d’outils (MCP/AILE), échanges de données structurées.
+3. Mise en perspective des contraintes opérationnelles : sécurité, latence, validation Airflow (données dicts, `dag_run.conf`), gestion des erreurs, induction d’un prompt strict.
+4. Transition vers les démonstrations : quelles données on alimente, quel outil on appelle (ex. Airflow → SQLite, AILE → API météo + NOTAM).
 
 ### Partie 2 — Démonstration / orchestration (30 mn)
 1. Présentation du scénario choisi (ex. agent orchestration d’un outil ou gestion de pipeline RAG).
