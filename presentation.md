@@ -1,5 +1,7 @@
 # Présentation 2h — Découverte de la programmation objet, du web et des mathématiques
 
+Cette session suppose que les participant·e·s maîtrisent la gestion des fichiers (textes ou données), savent travailler avec un terminal Linux sans recourir à la souris, conservent l’historique de leurs itérations via git et adoptent une démarche d’essais/tests itératifs pour fiabiliser leur code.
+
 ## 1. Objectifs de la session
 - Comprendre en quoi la programmation objet aide à structurer la pensée algorithmique.
 - Relier le développement web à des concepts mathématiques (séquences, fonctions, flux).
