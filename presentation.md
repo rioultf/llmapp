@@ -27,9 +27,6 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 3. Checklist de pilotage : promesses textuelles explicites, documentation des changements (édition/diff), invalidation rapide des prompts non conformes, et liens directs vers les ressources (scripts/TP, `prompt.md`, modèles).
 
 
-## 3. Ressources mentionnées
-- Article cité : https://substack.com/home/post/p-187027287 pour justifier la focalisation sur une stack légère avec `chat_completions`.
-- Scripts/TP disponibles dans le dépôt (AnyLLM, MCP, OpenWebUI, PromptFoo) pour illustrer les workflows.
 
 ## 4. Matériel à préparer
 - Transparents synthétiques par section (cas d’usage, pipeline, démonstration).
@@ -61,3 +58,7 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 ### Session Questions (30 mn)
 - Retour sur les cas d’usage préférés du public.
 - Explorations complémentaires (LML local vs API, intégration continue, monitoring).
+
+## Références
+- Article cité : https://substack.com/home/post/p-187027287 pour justifier la focalisation sur une stack légère avec `chat_completions`.
+- Scripts/TP disponibles dans le dépôt (AnyLLM, MCP, OpenWebUI, PromptFoo) pour illustrer les workflows.
