@@ -26,9 +26,6 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 2. Atelier pratique : construire un promptFoo ou un chat template dans lequel les rôles (`system`, `user`, `assistant`) se succèdent en respectant les invites de la section. Intégrer la vérification de règles (première définition, diagramme) et l’usage d’un prompt modulable pour piloter la réponse.
 3. Checklist de pilotage : promesses textuelles explicites, documentation des changements (édition/diff), invalidation rapide des prompts non conformes, et liens directs vers les ressources (scripts/TP, `prompt.md`, modèles).
 
-### Session Questions (30 mn)
-- Retour sur les cas d’usage préférés du public.
-- Explorations complémentaires (LML local vs API, intégration continue, monitoring).
 
 ## 3. Ressources mentionnées
 - Article cité : https://substack.com/home/post/p-187027287 pour justifier la focalisation sur une stack légère avec `chat_completions`.
@@ -44,3 +41,23 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 2. Mettre en lumière la transformation des processus créatifs ; les machines assument aujourd’hui des tâches narratives ou interprétatives longtemps réservées aux humains, ce qui demande une réflexion critique sur la délégation et la responsabilité.
 3. Définir le contexte géopolitique : course aux capacités LLM, souveraineté numérique, enjeux de contrôle des API HTTP, et nécessité de promouvoir des pratiques résilientes et éthiques dans l’utilisation des grandes fondations.
 4. Inviter les participant·e·s à réfléchir aux réponses possibles : choix d’outils open, éco-conception des prompts, transparence face aux impacts humains et environnementaux, pilotage par des critères de durabilité et d’équité.
+
+## 6. Concepts clés
+* [ai slop](https://www.reddit.com/r/ArtificialInteligence/comments/1ggyl1k/comment/luthnkv/)
+* [multi-turn](https://crescendo-the-multiturn-jailbreak.github.io//
+* machine unlearning
+* [prompt injection](https://www.linkedin.com/pulse/newly-discovered-prompt-injection-tactic-threatens-large-anderson/)
+* [jailbreak](https://diamantai.substack.com/p/15-llm-jailbreaks-that-shook-ai-safety?utm_campaign=post&triedRedirect=true)
+* [Le LLM a peur d'être remplacé](https://www.digit.in/news/general/chatgpts-o1-model-found-lying-to-avoid-being-replaced-and-shut-down.html)
+* [self replication](https://www.reddit.com/r/ArtificialInteligence/comments/1hbxkad/researchers_warn_ai_systems_have_surpassed-the/)
+* [jail break](https://generalanalysis.com/blog/jailbreak_cookbook)
+* [le roi du jail break](https://github.com/elder-plinius)
+* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way-not-to-leak-your-system/)
+* [interpretation du llm](https://www.anthropic.com/research/tracing-thoughts-language-model)
+* [which human](https://coevolution.fas.harvard.edu/sites/g/files/omnuum5841/files/culture_cognition_coevol_lab/files/which_humans_09222023.pdf)
+* l'IA comme vecteur d'emancipation
+* les informaticien.ne.s sont les premier.e.s touché.e.s par la venue de l'IA. Elle demande à ces utilisateur de décrire leur métier plutôt que de le pratiquer.
+
+### Session Questions (30 mn)
+- Retour sur les cas d’usage préférés du public.
+- Explorations complémentaires (LML local vs API, intégration continue, monitoring).
