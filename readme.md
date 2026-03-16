@@ -10,6 +10,8 @@ subtitle: Guide
 
 Ce cours s'adresse à des étudiant.e.s en Licence Professionnelle IA.
 
+La stack technique est volontairement légère : on travaille depuis un terminal avec des outils en ligne de commande, et l’accès au LLM se fait uniquement via l’API `chat_completions` pour bénéficier d’une stack mûre et stable (voir https://substack.com/home/post/p-187027287).
+
 Normalement, ces étudiant.e.s sont formé.e.s depuis ans à l'informatique, après le bac. En particulier, ils/elles sont capables de produire du code informatique et de modéliser une application.
 
 Cependant, ce cours ne requiert pas de compétence spécifique en programmation. Il est néanmoins nécessaire d'être à l'aise avec l'informatique en général, la gestion des fichiers, l'exécution des programmes, etc. L'utilisation du système Linux est préconisée.
