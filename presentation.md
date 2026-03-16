@@ -21,10 +21,10 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 3. Illustration de l’API `chat_completions` comme point d’entrée : prompts structurés, rôles `system/user/assistant`, notion de température/top-k/top-p, et lecture concrète d’une requête HTTP qui incarne cette programmation par le texte.
 4. Mise en perspective pédagogique : les élèves comprennent que leur interaction avec le LLM est une requête HTTP textuelle, écrite dans le terminal, et que l’outil manipule le texte comme un programme, avec des règles (attention, tokenisation, stop sequences) pour garantir la cohérence.
 
-### Partie 3 — Atelier de synthèse & bonnes pratiques (25 mn)
-1. Séquence interactive : comment formuler un prompt modulable, comment documenter les itérations.
-2. Présentation d’une checklist pour piloter un projet LLM (tests, métriques, sécurité, maintenabilité).
-3. Mise en évidence des ressources disponibles (script terminal, modèles, processus d’orchestration).
+### Partie 3 — Prompt engineering (25 mn)
+1. Application des règles de `prompt.md` : définir les objets mathématiques/techniques, séparer notion, équation et diagramme Mermaid, et terminer chaque section par un résumé fonctionnel clair. Montrer comment cela structure le prompt et assure la traçabilité de l’itération.
+2. Atelier pratique : construire un promptFoo ou un chat template dans lequel les rôles (`system`, `user`, `assistant`) se succèdent en respectant les invites de la section. Intégrer la vérification de règles (première définition, diagramme) et l’usage d’un prompt modulable pour piloter la réponse.
+3. Checklist de pilotage : promesses textuelles explicites, documentation des changements (édition/diff), invalidation rapide des prompts non conformes, et liens directs vers les ressources (scripts/TP, `prompt.md`, modèles).
 
 ### Session Questions (30 mn)
 - Retour sur les cas d’usage préférés du public.
