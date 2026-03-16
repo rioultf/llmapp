@@ -38,3 +38,9 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 - Transparents synthétiques par section (cas d’usage, pipeline, démonstration).
 - Extraits de requêtes `chat_completions` et de prompts documentés.
 - Captations vidéo d’une orchestration LLM → outil, ou démonstration live cadrée.
+
+## 5. Perspective écologique et géopolitique (15 mn)
+1. Questionner l’impact écologique des infrastructures LLM : collecte massive de données, coût énergétique des modèles, dépendance aux fournisseurs cloud. Référence à Éric Sadin et à la notion du *désert de nous-mêmes* pour souligner la dissociation grandissante entre l’humain et les chaînes de valeur technologique.
+2. Mettre en lumière la transformation des processus créatifs ; les machines assument aujourd’hui des tâches narratives ou interprétatives longtemps réservées aux humains, ce qui demande une réflexion critique sur la délégation et la responsabilité.
+3. Définir le contexte géopolitique : course aux capacités LLM, souveraineté numérique, enjeux de contrôle des API HTTP, et nécessité de promouvoir des pratiques résilientes et éthiques dans l’utilisation des grandes fondations.
+4. Inviter les participant·e·s à réfléchir aux réponses possibles : choix d’outils open, éco-conception des prompts, transparence face aux impacts humains et environnementaux, pilotage par des critères de durabilité et d’équité.
