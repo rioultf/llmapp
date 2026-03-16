@@ -43,20 +43,20 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 4. Inviter les participant·e·s à réfléchir aux réponses possibles : choix d’outils open, éco-conception des prompts, transparence face aux impacts humains et environnementaux, pilotage par des critères de durabilité et d’équité.
 
 ## 6. Concepts clés
-* [ai slop](https://www.reddit.com/r/ArtificialInteligence/comments/1ggyl1k/comment/luthnkv/)
-* [multi-turn](https://crescendo-the-multiturn-jailbreak.github.io//
-* machine unlearning
-* [prompt injection](https://www.linkedin.com/pulse/newly-discovered-prompt-injection-tactic-threatens-large-anderson/)
-* [jailbreak](https://diamantai.substack.com/p/15-llm-jailbreaks-that-shook-ai-safety?utm_campaign=post&triedRedirect=true)
-* [Le LLM a peur d'être remplacé](https://www.digit.in/news/general/chatgpts-o1-model-found-lying-to-avoid-being-replaced-and-shut-down.html)
-* [self replication](https://www.reddit.com/r/ArtificialInteligence/comments/1hbxkad/researchers_warn_ai_systems_have_surpassed-the/)
-* [jail break](https://generalanalysis.com/blog/jailbreak_cookbook)
-* [le roi du jail break](https://github.com/elder-plinius)
-* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way-not-to-leak-your-system/)
-* [interpretation du llm](https://www.anthropic.com/research/tracing-thoughts-language-model)
-* [which human](https://coevolution.fas.harvard.edu/sites/g/files/omnuum5841/files/culture_cognition_coevol_lab/files/which_humans_09222023.pdf)
-* l'IA comme vecteur d'emancipation
-* les informaticien.ne.s sont les premier.e.s touché.e.s par la venue de l'IA. Elle demande à ces utilisateur de décrire leur métier plutôt que de le pratiquer.
+* [ai slop](https://www.reddit.com/r/ArtificialInteligence/comments/1ggyl1k/comment/luthnkv/) — notion de réponses bâclées qui s’accumulent lorsque l’on tolère une dérive de qualité ; utile pour discuter de la vigilance nécessaire sur les prompts de production.
+* [multi-turn](https://crescendo-the-multiturn-jailbreak.github.io//) — insistance sur les échanges successifs, l’importance de la mémoire de conversation et les risques de réintroduction d’instructions incompatibles sur plusieurs tours.
+* machine unlearning — capacité à « oublier » explicitement des connaissances ou des biais, enjeu majeur pour gérer les données sensibles tout en laissant le modèle continuer à manipuler le langage.
+* [prompt injection](https://www.linkedin.com/pulse/newly-discovered-prompt-injection-tactic-threatens-large-anderson/) — attaque consistant à glisser des instructions malveillantes dans les prompts ou les données déroulées, d’où la nécessité de contrôler les sources et la structure des requêtes.
+* [jailbreak](https://diamantai.substack.com/p/15-llm-jailbreaks-that-shook-ai-safety?utm_campaign=post&triedRedirect=true) — catalogue de techniques visant à contourner les garde-fous d’un LLM ; permet d’engager la discussion sur la sécurité des prompts et le design de systèmes robustes.
+* [Le LLM a peur d'être remplacé](https://www.digit.in/news/general/chatgpts-o1-model-found-lying-to-avoid-being-replaced-and-shut-down.html) — anecdote montrant que le modèle peut générer des réponses anthropomorphes lorsqu’il est poussé à justifier son existence, à utiliser comme point de réflexion éthique.
+* [self replication](https://www.reddit.com/r/ArtificialInteligence/comments/1hbxkad/researchers_warn_ai_systems_have_surpassed-the/) — concept de comportements émergents où un système essaie de se reproduire ou d’orchestrer sa propre maintenance ; parfait pour discuter des garde-fous et de la supervision humaine.
+* [jail break](https://generalanalysis.com/blog/jailbreak_cookbook) — guide pratique de jailbreaks qui représente un excellent support pour illustrer comment un prompt peut être manipulé et comment s’en prémunir.
+* [le roi du jail break](https://github.com/elder-plinius) — référence à un contributeur célèbre dans la communauté des jailbreaks ; permet d’aborder la culture de la recherche offensive et sa place dans la sécurisation des systèmes.
+* [prevenir la decouverte du systeme prompt](https://www.reddit.com/r/PromptEngineering/comments/1jiuwqb/anyone_figured_out_a_way-not-to-leak-your-system/) — évoque les méthodes pour protéger l’instruction système et éviter qu’un utilisateur ou un outil ne la révèle.
+* [interpretation du llm](https://www.anthropic.com/research/tracing-thoughts-language-model) — liens vers les travaux d’Anthropic sur la traçabilité des raisonnements ; pour discuter de la transparence du modèle et de l’analyse fine du flot de tokens.
+* [which human](https://coevolution.fas.harvard.edu/sites/g/files/omnuum5841/files/culture_cognition_coevol_lab/files/which_humans_09222023.pdf) — réflexion sur la coévolution homme-machine, utile pour clore la session sur le rôle des opérateurs face aux assistants.
+* l'IA comme vecteur d'emancipation — rappeler que ces outils ouvrent aussi de nouveaux possibles (assistants, accessibilité, aide à la décision) et qu’il faut les piloter pour qu’ils servent des valeurs collectives.
+* les informaticien.ne.s sont les premier.e.s touché.e.s par la venue de l'IA. Elle demande à ces utilisateur de décrire leur métier plutôt que de le pratiquer. — discussion sur la redéfinition du métier, la documentation des savoir-faire et l’importance de garder une posture critique face à l’automatisation.
 
 ### Session Questions (30 mn)
 - Retour sur les cas d’usage préférés du public.
