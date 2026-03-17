@@ -48,9 +48,40 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 2. Mettre en lumière la transformation des processus créatifs ; les machines assument aujourd’hui des tâches narratives ou interprétatives longtemps réservées aux humains, ce qui demande une réflexion critique sur la délégation et la responsabilité.
 3. Définir le contexte géopolitique : course aux capacités LLM, souveraineté numérique, enjeux de contrôle des API HTTP, et nécessité de promouvoir des pratiques résilientes et éthiques dans l’utilisation des grandes fondations.
 4. Inviter les participant·e·s à réfléchir aux réponses possibles : choix d’outils open, éco-conception des prompts, transparence face aux impacts humains et environnementaux, pilotage par des critères de durabilité et d’équité.
-5. Questionner l’adoption automatique des technologies IA comme une évidence : sans discussion, on ignore les effets anthropomorphiques que cela engage (attentes humaines, responsabilités projetées) et on renforce des pratiques qui auraient besoin de débats et de gardes-fous.
+5. Questionner l’adoption automatique des technologies IA comme une évidence : sans discussion, on ignore les effets anthropomorphiques que cela engage (attentes humaines, responsabilités projetées) et on renforce des pratiques qui auraient besoin de débats et de gardés-fous.
 
-## 6. Concepts clés
+## 6. Synthèse critique : *Le désert de nous-mêmes* (Éric Sadin)
+
+Éric Sadin, dans son essai publié en 2025, déploie un maniement serré des notions d’indistinction, de langage et de subjectivité pour souligner la rupture anthropologique inaugurée par les systèmes génératifs. Sa conférence *« Il nous reste trois ans… »* (cf. https://www.youtube.com/watch?v=v5DDuHbqVAw) est un point de départ utile pour illustrer ce diagnostic.
+
+### Manipulation du langage, de l’opinion et intérêt de l’altérité
+
+Les IA génératives imposent un pseudo-langage mathématisé et standardisé qui devient l’antichambre de la manipulation de l’opinion. Sadin rappelle qu’il faut plus que jamais cultiver le goût de l’autre : les échanges, la confrontation aux personnes d’intérêt ou de principe (Charles Péguy), sont les contrepoints de la standardisation d’un langage fabriqué par des systèmes.
+
+### Les systèmes génératifs : indistinction, rapport au réel et image phantasmatique
+
+Ces systèmes sont le prolongement du diagnostic du rapport Meadows de 1972 : une accélération sans garde-fous, un ouragan sur les ressources, dans une ère de l’indistinction généralisée où l’on ne saura plus distinguer l’origine ou la nature d’une image. L’ère de l’image phantasmatique produit des lubies, un déni du réel, des psychés en proie à la confusion entre fiction et expérience vécue ; la question du rapport au réel devient centrale.
+
+### Mutation anthropologique et destruction créatrice
+
+Sous l’angle schumpétérien, la destruction créatrice tombe « une deuxième fois le jour de la sortie de ChatGPT » : la machine remplace aujourd’hui des actes de création autrefois réservés à l’humain, et l’IA devient une mutation anthropologique qui transforme la production symbolique. La synthèse distingue deux types d’IA (les vingt dernières années et ces trois dernières années de génération) dont l’agrégation amplifie la puissance d’expertise, de recommandation et inaugure un tournant injonctif indéfendable.
+
+### Gouvernance, principes et grandes questions morales
+
+Les gouvernements sont priés d’entrer dans la course géopolitique, mais cette priorité entraîne une irresponsabilité totale : « nos enfants, pourquoi aller à l’école ? », « jobs apocalypse », faillite morale collective. Les étudiant·e·s passionné·e·s d’utilitarisme technique doivent rester critiques face à la doxa : grande illusion de la régulation, lobbying massif, lois fondées sur l’avantage/risque (EU AI Act, texte de Thierry Breton), Amazon bafouant la dignité humaine, absence de repères communs. La question « a-t-on la main ? » devient cruciale, surtout quand le système autorise la conduite pavlovienne des comportements. Cinq principes fondamentaux doivent être défendus :
+- liberté humaine,
+- intégrité,
+- dignité,
+- célébration de l’inventivité/créativité,
+- sociabilité.
+
+Cela oppose la pathologie de l’utilitarisme, la doxa du nouvel horizon et l’obsession du rendement (30 % des morceaux sur Spotify sont générés par des algorithmes) à une célébration du vivant et à un appel à écrire plutôt qu’à promener des idées dans l’air.
+
+### Enjeux éducatifs et professionnels
+
+Trois grandes conséquences majeures : l’éducation, le monde du travail et l’écologie. L’arrêt de la transmission sur des bancs poussiéreux, un ouragan sur les savoir-faire, des mutations quaternaires sans reversement vers un modèle social (cas de la série en Chine, manque de soutien aux métiers de services et de la culture). Appel : « les idées, c’est facile ; écrire, c’est difficile. » Interroger les juges et les parties devient un impératif, tout comme reconnaître que les systèmes génératifs renforcent une célébration du vivant seulement si nous imposons des garde-fous communs.
+
+## 7. Concepts clés
 * [ai slop](https://www.reddit.com/r/ArtificialInteligence/comments/1ggyl1k/comment/luthnkv/) — notion de réponses bâclées qui s’accumulent lorsque l’on tolère une dérive de qualité ; utile pour discuter de la vigilance nécessaire sur les prompts de production.
 * [multi-turn](https://crescendo-the-multiturn-jailbreak.github.io//) — insistance sur les échanges successifs, l’importance de la mémoire de conversation et les risques de réintroduction d’instructions incompatibles sur plusieurs tours.
 * machine unlearning — capacité à « oublier » explicitement des connaissances ou des biais, enjeu majeur pour gérer les données sensibles tout en laissant le modèle continuer à manipuler le langage.
@@ -66,10 +97,10 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 * l'IA comme vecteur d'emancipation — rappeler que ces outils ouvrent aussi de nouveaux possibles (assistants, accessibilité, aide à la décision) et qu’il faut les piloter pour qu’ils servent des valeurs collectives.
 * les informaticien.ne.s sont les premier.e.s touché.e.s par la venue de l'IA. Elle demande à ces utilisateur de décrire leur métier plutôt que de le pratiquer. — discussion sur la redéfinition du métier, la documentation des savoir-faire et l’importance de garder une posture critique face à l’automatisation.
 
-### Session Questions (30 mn)
+## 8. Session Questions (30 mn)
 - Retour sur les cas d’usage préférés du public.
 - Explorations complémentaires (LML local vs API, intégration continue, monitoring).
 
-## Références
+## 9. Références
 - Article cité : https://substack.com/home/post/p-187027287 pour justifier la focalisation sur une stack légère avec `chat_completions`.
 - Scripts/TP disponibles dans le dépôt (AnyLLM, MCP, OpenWebUI, PromptFoo) pour illustrer les workflows.
