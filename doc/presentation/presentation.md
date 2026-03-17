@@ -34,6 +34,9 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 2. Emparez-vous du sujet avec esprit critique : les profs n’ont pas encore tous intégré l’IA dans leurs pratiques. Discutez entre vous de ses usages, de ses limites, et construisez collectivement une culture d’usage responsable plutôt que de la subir.
 3. Ne laissez pas la paresse définir votre rapport à l’IA : si vous l’utilisez par réflexe, sans analyse, vous en resterez à un usage « stupide ». Transformez cette technologie en levier d’émancipation en élaborant une stratégie de « boule de neige » : documentez vos itérations, testez des chaînes de prompts, mesurez les gains et partagez vos retours.
 4. Privilégiez la transparence et l’apprentissage : notez ce que vous demandez à l’IA, ce qu’elle vous répond, et pourquoi vous retenez ou rejetez une piste. Cela évite de reproduire des erreurs et permet de construire des exemples pédagogiques exploitables pour tous.
+5. Soyez attentif·ve·s à chaque fois que vous utilisez un service ou un outil : interrogez-vous pour savoir si vous faites appel à une IA sans le savoir, et vérifiez la provenance des réponses ou des recommandations.
+6. Demandez-vous si vous pouvez vous en passer : si la valeur ajoutée est faible, privilégiez l’effort cognitif humain et gardez l’IA pour les situations où elle apporte un gain clair.
+7. Analysez quelles portions d’une tâche traditionnellement confiée à un humain vous automatisez : identifiez les causes et les conséquences (impact sur les savoir-faire, la qualité, la responsabilité) avant de déléguer.
 
 ## 4. Matériel à préparer
 - Transparents synthétiques par section (cas d’usage, pipeline, démonstration).
@@ -45,6 +48,7 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 2. Mettre en lumière la transformation des processus créatifs ; les machines assument aujourd’hui des tâches narratives ou interprétatives longtemps réservées aux humains, ce qui demande une réflexion critique sur la délégation et la responsabilité.
 3. Définir le contexte géopolitique : course aux capacités LLM, souveraineté numérique, enjeux de contrôle des API HTTP, et nécessité de promouvoir des pratiques résilientes et éthiques dans l’utilisation des grandes fondations.
 4. Inviter les participant·e·s à réfléchir aux réponses possibles : choix d’outils open, éco-conception des prompts, transparence face aux impacts humains et environnementaux, pilotage par des critères de durabilité et d’équité.
+5. Questionner l’adoption automatique des technologies IA comme une évidence : sans discussion, on ignore les effets anthropomorphiques que cela engage (attentes humaines, responsabilités projetées) et on renforce des pratiques qui auraient besoin de débats et de gardes-fous.
 
 ## 6. Concepts clés
 * [ai slop](https://www.reddit.com/r/ArtificialInteligence/comments/1ggyl1k/comment/luthnkv/) — notion de réponses bâclées qui s’accumulent lorsque l’on tolère une dérive de qualité ; utile pour discuter de la vigilance nécessaire sur les prompts de production.
