@@ -1,4 +1,4 @@
-# Application des IA génératives - LLM
+# IA génératives textuelles (LLM) pour novices
 
 Cette session suppose que les participant·e·s maîtrisent la gestion de fichiers (textes ou données), savent travailler avec un terminal Linux sans recourir à la souris, conservent l’historique de leurs itérations via git et adoptent une démarche d’essais/tests itératifs pour fiabiliser leurs livrables. Dans ce contexte, la matinée vise à explorer les usages concrets des LLM en production en s’appuyant sur une stack technique minimale mais rigoureuse (terminal + gestion de fichiers). Focus :
 - IA = chatbot (LLM)
