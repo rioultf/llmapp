@@ -26,6 +26,12 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 2. Atelier pratique : construire un promptFoo ou un chat template dans lequel les rôles (`system`, `user`, `assistant`) se succèdent en respectant les invites de la section. Intégrer la vérification de règles (première définition, diagramme) et l’usage d’un prompt modulable pour piloter la réponse.
 3. Checklist de pilotage : promesses textuelles explicites, documentation des changements (édition/diff), invalidation rapide des prompts non conformes, et liens directs vers les ressources (scripts/TP, `prompt.md`, modèles).
 
+## Conseils pour les étudiant·e·s
+1. Réfléchissez avant d’interroger l’IA : un appel à l’API coûte, donc chaque prompt mérite une intention claire. Prenez le temps de formuler la question, d’identifier les données utiles, et de décider ce que vous attendez comme résultat.
+2. Emparez-vous du sujet avec esprit critique : les profs n’ont pas encore tous intégré l’IA dans leurs pratiques. Discutez entre vous de ses usages, de ses limites, et construisez collectivement une culture d’usage responsable plutôt que de la subir.
+3. Ne laissez pas la paresse définir votre rapport à l’IA : si vous l’utilisez par réflexe, sans analyse, vous en resterez à un usage « stupide ». Transformez cette technologie en levier d’émancipation en élaborant une stratégie de « boule de neige » : documentez vos itérations, testez des chaînes de prompts, mesurez les gains et partagez vos retours.
+4. Privilégiez la transparence et l’apprentissage : notez ce que vous demandez à l’IA, ce qu’elle vous répond, et pourquoi vous retenez ou rejetez une piste. Cela évite de reproduire des erreurs et permet de construire des exemples pédagogiques exploitables pour tous.
+
 ## 4. Matériel à préparer
 - Transparents synthétiques par section (cas d’usage, pipeline, démonstration).
 - Extraits de requêtes `chat_completions` et de prompts documentés.
