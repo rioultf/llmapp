@@ -29,14 +29,15 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 2. Atelier pratique : construire un promptFoo ou un chat template dans lequel les rôles (`system`, `user`, `assistant`) se succèdent en respectant les invites de la section. Intégrer la vérification de règles (première définition, diagramme) et l’usage d’un prompt modulable pour piloter la réponse.
 3. Checklist de pilotage : promesses textuelles explicites, documentation des changements (édition/diff), invalidation rapide des prompts non conformes, et liens directs vers les ressources (scripts/TP, `prompt.md`, modèles).
 
-## Conseils pour les étudiant·e·s
-1. Réfléchissez avant d’interroger l’IA : un appel à l’API coûte, donc chaque prompt mérite une intention claire. Prenez le temps de formuler la question, d’identifier les données utiles, et de décider ce que vous attendez comme résultat.
-2. Emparez-vous du sujet avec esprit critique : les profs n’ont pas encore tous intégré l’IA dans leurs pratiques. Discutez entre vous de ses usages, de ses limites, et construisez collectivement une culture d’usage responsable plutôt que de la subir.
-3. Ne laissez pas la paresse définir votre rapport à l’IA : si vous l’utilisez par réflexe, sans analyse, vous en resterez à un usage « stupide ». Transformez cette technologie en levier d’émancipation en élaborant une stratégie de « boule de neige » : documentez vos itérations, testez des chaînes de prompts, mesurez les gains et partagez vos retours.
-4. Privilégiez la transparence et l’apprentissage : notez ce que vous demandez à l’IA, ce qu’elle vous répond, et pourquoi vous retenez ou rejetez une piste. Cela évite de reproduire des erreurs et permet de construire des exemples pédagogiques exploitables pour tous.
-5. Soyez attentif·ve·s à chaque fois que vous utilisez un service ou un outil : interrogez-vous pour savoir si vous faites appel à une IA sans le savoir, et vérifiez la provenance des réponses ou des recommandations.
-6. Demandez-vous si vous pouvez vous en passer : si la valeur ajoutée est faible, privilégiez l’effort cognitif humain et gardez l’IA pour les situations où elle apporte un gain clair.
-7. Analysez quelles portions d’une tâche traditionnellement confiée à un humain vous automatisez : identifiez les causes et les conséquences (impact sur les savoir-faire, la qualité, la responsabilité) avant de déléguer.
+## Conseils pour les néophytes de l’IA
+Ces recommandations s’adressent aux étudiant·e·s, aux enseignant·e·s et à tout public débutant qui souhaite comprendre et piloter les usages des IA génératives plutôt que de les subir.
+1. Réfléchissez avant d’interroger l’IA : chaque appel à une API coûte et traduit un choix. Formulez une question précise, identifiez les données nécessaires et décrivez l’objectif attendu avant d’envoyer un prompt.
+2. Impliquez-vous collectivement : prenez la parole dans vos groupes, vos classes, vos ateliers pour partager ce que vous découvrez, ce qui marche, ce qui pose problème. L’intelligence collective permet de construire rapidement une culture d’usage adaptée aux novices.
+3. Ne vous contentez pas de « copier-coller » des prompts : analyser les réponses et proposer des itérations vous aide à transformer la paresse en stratégie d’émancipation, une « boule de neige » où chaque essai construit un savoir commun.
+4. Notez vos interactions : pour chaque requête, conservez la question, le contexte, la réponse et vos décisions. Cette transparence aide les enseignants comme les curieux à documenter ce qu’ils apprennent et à isoler les dérives.
+5. Soyez attentif·ve·s : interrogez-vous à chaque fois que vous utilisez un service pour savoir si une IA s’intercale sans que vous le sachiez, et vérifiez l’origine des recommandations qui vous sont faites.
+6. Demandez-vous si vous pouvez faire autrement : un outil génératif doit apporter un vrai gain ; sinon, préférez l’intervention humaine pour préserver les savoir-faire et garder le contact avec la réalité du terrain.
+7. Identifiez ce que vous automatisez : pour chaque portion de tâche, questionnez les causes et les conséquences sur les compétences humaines, la qualité, la responsabilité et la collaboration avant de déléguer à une IA.
 
 ## 4. Matériel à préparer
 - Transparents synthétiques par section (cas d’usage, pipeline, démonstration).
