@@ -56,7 +56,7 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 
 ### Manipulation du langage, de l’opinion et intérêt de l’altérité
 
-Les IA génératives imposent un pseudo-langage mathématisé et standardisé qui devient l’antichambre de la manipulation de l’opinion. Sadin rappelle qu’il faut plus que jamais cultiver le goût de l’autre : les échanges, la confrontation aux personnes d’intérêt ou de principe (Charles Péguy), sont les contrepoints de la standardisation d’un langage fabriqué par des systèmes.
+Les IA génératives imposent un pseudo-langage mathématisé et standardisé qui devient l’antichambre de la manipulation de l’opinion. Sadin rappelle qu’il faut plus que jamais cultiver le goût de l’autre : les échanges, la confrontation aux personnes d’intérêt ou de principe (Charles Péguy), sont les contrepoints de la standardisation d’un langage fabriqué par des systèmes. L’altérité devient ainsi un garde-fou indispensable, car elle oblige à confronter les productions générées avec des perspectives humaines différenciées avant de les valider.
 
 ### Les systèmes génératifs : indistinction, rapport au réel et image phantasmatique
 
