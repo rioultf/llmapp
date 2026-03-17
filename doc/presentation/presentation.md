@@ -1,6 +1,6 @@
 # IA génératives textuelles (LLM) pour novices
 
-Cette session suppose que les participant·e·s maîtrisent la gestion de fichiers (textes ou données), savent travailler avec un terminal Linux sans recourir à la souris, conservent l’historique de leurs itérations via git et adoptent une démarche d’essais/tests itératifs pour fiabiliser leurs livrables. Dans ce contexte, la matinée vise à explorer les usages concrets des LLM en production en s’appuyant sur une stack technique minimale mais rigoureuse (terminal + gestion de fichiers). Focus :
+Ce guide s’adresse aux équipes pédagogiques, aux responsables de formation et à toute personne novice dans le domaine des IA génératives textuelles. Il part du principe que les lecteur·rice·s savent manipuler des fichiers, utiliser un terminal Linux sans recourir à la souris et garder une trace de leurs itérations avec git, afin d’explorer des usages concrets tout en conservant une stack technique légère mais rigoureuse (terminal + gestion de fichiers). Focus :
 - IA = chatbot (LLM)
 - s’adresser à des novices en matière d’application de l’IA
 - faible stack technique mais exigeante : terminal et gestion de fichiers
@@ -10,9 +10,11 @@ Cette session suppose que les participant·e·s maîtrisent la gestion de fichie
 - Montrer comment orchestrer une chaîne LLM + outil dans un scénario réaliste, avec vidéo/démonstration des flux d’appel.
 - Préparer les participant·e·s à conduire une expérimentation itérative avec des prompts, des tests d’API et des critères de validation.
 
-## 2. Déroulé (90 mn + 30 mn Q&A)
+## 2. Déroulé recommandé
 
-### Partie 1 — Usages & architecture (5 mn)
+La progression suivante propose un enchaînement logique permettant aux novices d’alterner exposé théorique, démonstration et atelier guidé sans imposer de durée standardisée.
+
+### Partie 1 — Usages & architecture
 1. Présentation des applications que tu as développées : le pipeline Airflow IMAP → classification → SQLite (DAGs `imap_poll_classify_and_trigger`, `classify_emails`, `index_classification_to_sqlite`, prompt `prompts/prompt2.md` et modèle OpenRouter) et l’agent AILE (Assistant Intelligent pour le Libre-Élan) qui combine météo, NOTAM et conseils pour le vol libre.
 2. Cartographie des composants : prompt, LLM, API `chat_completions`, opérateurs Airflow ou modules d’orchestration d’outils (MCP/AILE), échanges de données structurées.
 3. Mise en perspective des contraintes opérationnelles : sécurité, latence, validation Airflow (données dicts, `dag_run.conf`), gestion des erreurs, induction d’un prompt strict.
@@ -98,7 +100,7 @@ Trois grandes conséquences majeures : l’éducation, le monde du travail et l�
 * l'IA comme vecteur d'emancipation — rappeler que ces outils ouvrent aussi de nouveaux possibles (assistants, accessibilité, aide à la décision) et qu’il faut les piloter pour qu’ils servent des valeurs collectives.
 * les informaticien.ne.s sont les premier.e.s touché.e.s par la venue de l'IA. Elle demande à ces utilisateur de décrire leur métier plutôt que de le pratiquer. — discussion sur la redéfinition du métier, la documentation des savoir-faire et l’importance de garder une posture critique face à l’automatisation.
 
-## 8. Session Questions (30 mn)
+## 8. Session Questions
 - Retour sur les cas d’usage préférés du public.
 - Explorations complémentaires (LML local vs API, intégration continue, monitoring).
 
