@@ -1,6 +1,9 @@
-# Séance 2h — Applications des LLM pour bac +3 professionnels
+# Application des IA génératives - LLM
 
-Cette session suppose que les participant·e·s maîtrisent la gestion de fichiers (textes ou données), savent travailler avec un terminal Linux sans recourir à la souris, conservent l’historique de leurs itérations via git et adoptent une démarche d’essais/tests itératifs pour fiabiliser leurs livrables. Dans ce contexte, la matinée vise à explorer les usages concrets des LLM en production, en privilégiant une stack minimaliste (terminal + API `chat_completions`).
+Cette session suppose que les participant·e·s maîtrisent la gestion de fichiers (textes ou données), savent travailler avec un terminal Linux sans recourir à la souris, conservent l’historique de leurs itérations via git et adoptent une démarche d’essais/tests itératifs pour fiabiliser leurs livrables. Dans ce contexte, la matinée vise à explorer les usages concrets des LLM en production en s’appuyant sur une stack technique minimale mais rigoureuse (terminal + gestion de fichiers). Focus :
+- IA = chatbot (LLM)
+- s’adresser à des novices en matière d’application de l’IA
+- faible stack technique mais exigeante : terminal et gestion de fichiers
 
 ## 1. Objectifs de la session
 - Cartographier les principales applications métiers des LLM (agents conversationnels, supervision d’outils, RAG, distillation) et comprendre que le LLM est une brique interrogée via une API HTTP, ce qui constitue une introduction à la programmation par le texte.
