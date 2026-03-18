@@ -1,0 +1,3 @@
+# AILE — Assistant Intelligent pour le Libre-Élan
+
+AILE est un chatbot d’aide à la décision qui accompagne les pilotes dans la préparation de leurs vols libres en combinant météo, NOTAM, conseils et analyses de trajectoire. Il orchestre des données officielles (météo aéronautique, navigation, aérologie) et des prompts structurés pour faire dialoguer l’IA avec le pilote sur des plans de vol réalistes. Le projet met l’accent sur la traçabilité documentaire : prompts, calculs et synthèses sont enregistrés pour que les informaticien·ne·s puissent comprendre et améliorer en continu les modules LLM.
