@@ -3,6 +3,7 @@
 ## Objectif
 - Accompagner la préparation de vol libre en délivrant un assistant dialoguant météo, NOTAM et conseils tactiques.
 - Montrer comment un assistant LLM peut structurer une aide à la décision en combinant prompts, données aéronautiques et expertise humaine.
+- [Voir l’illustration associée](img/preview.png)
 
 ## Architecture MCP
 - Un endpoint MCP déclenche la collecte de données officielles (météo, aérologie, navigation) et les incorpore au prompt.
