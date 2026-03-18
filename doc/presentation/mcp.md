@@ -1,3 +1,18 @@
-# AILE — Assistant Intelligent pour le Libre-Élan
+# Slide — AILE via MCP
 
-AILE est exposé via un serveur MCP : un appel à son endpoint déclenche la collecte de météo, NOTAM et aérologie, l’injection du prompt structuré dans le LLM et le retour d’une réponse dialoguée vers le pilote. Le projet combine des sources officielles, des calculs programmés et des synthèses LLM en veillant à documenter chaque interaction (prompts, données sources, réponses) pour que les informaticien·ne·s puissent tracer et améliorer la chaîne. On rappelle que cette chaîne repose sur la décomposition du modèle en deux registres — les connaissances stockées dans les sources et les capacités à traiter l’information et produire un raisonnement — afin que chaque appel MCP reste maîtrisé et compréhensible. Cette architecture montre comment un agent piloté par MCP peut guider les pilotes dans leurs choix tactiques tout en conservant la transparence nécessaire aux métiers de l’informatique documentaire.
+## Objectif
+- Accompagner la préparation de vol libre en délivrant un assistant dialoguant météo, NOTAM et conseils tactiques.
+- Montrer comment un assistant LLM peut structurer une aide à la décision en combinant prompts, données aéronautiques et expertise humaine.
+
+## Architecture MCP
+- Un endpoint MCP déclenche la collecte de données officielles (météo, aérologie, navigation) et les incorpore au prompt.
+- Le prompt structuré est envoyé au LLM qui produit une réponse, enrichie par les outils, puis le serveur renvoie cette synthèse au pilote.
+- MCP orchestre l’ensemble, expose les outils disponibles et permet de documenter chaque appel.
+
+## Décomposition du modèle
+- Séparer les connaissances (sources officielles, bases SQLite, heures de décollage) des capacités de traitement (manipulation de prompts, raisonnement, synthèse).
+- Cette grille aide les néophytes à comprendre ce qu’ils manipulent : des informations fixes d’un côté, et des capacités dynamiques de l’autre.
+
+## Traçabilité et amélioration continue
+- Documenter chaque prompt, chaque réponse, les calculs intermédiaires et les décisions prises par le modèle.
+- Tenir des fichiers traçables permet aux informaticien·ne·s de retracer la chaîne (données → LLM → réponse) et d’itérer sur les modules LLM sans perdre en compréhension.
