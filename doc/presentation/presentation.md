@@ -38,7 +38,7 @@ Ces recommandations s’adressent aux étudiant·e·s, aux enseignant·e·s et �
 3. Ne vous contentez pas de « copier-coller » des prompts : analyser les réponses et proposer des itérations vous aide à transformer la paresse en stratégie d’émancipation, une « boule de neige » où chaque essai construit un savoir commun.
 4. Notez vos interactions : pour chaque requête, conservez la question, le contexte, la réponse et vos décisions. Cette transparence aide les enseignants comme les curieux à documenter ce qu’ils apprennent et à isoler les dérives.
 5. Soyez attentif·ve·s : interrogez-vous à chaque fois que vous utilisez un service pour savoir si une IA s’intercale sans que vous le sachiez, et vérifiez l’origine des recommandations qui vous sont faites.
-6. Ne soyez pas prisonnier d’une interface ou d’un produit, au risque d’être prisonnier du modèle.
+6. Ne soyez pas prisonnier·ère·s d’une interface ou d’un produit : construisez vos pratiques en dehors du modèle en travaillant sur des fichiers traçables, documentés et partagés avant de déléguer quoi que ce soit à une IA.
 7. Demandez-vous si vous pouvez faire autrement : un outil génératif doit apporter un vrai gain ; sinon, préférez l’intervention humaine pour préserver les savoir-faire et garder le contact avec la réalité du terrain.
 8. Identifiez ce que vous automatisez : pour chaque portion de tâche, questionnez les causes et les conséquences sur les compétences humaines, la qualité, la responsabilité et la collaboration avant de déléguer à une IA.
 
