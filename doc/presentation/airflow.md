@@ -1,3 +1,10 @@
+---
+author:
+- François Rioult
+lang: fr
+title: Application des LLM
+subtitle: Indexation de mails
+---
 # Pipeline d’indexation de mails
 
 `Airflow` orchestre 
