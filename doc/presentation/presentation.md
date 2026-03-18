@@ -42,6 +42,11 @@ Ces recommandations s’adressent aux étudiant·e·s, aux enseignant·e·s et �
 7. Demandez-vous si vous pouvez faire autrement : un outil génératif doit apporter un vrai gain ; sinon, préférez l’intervention humaine pour préserver les savoir-faire et garder le contact avec la réalité du terrain.
 8. Identifiez ce que vous automatisez : pour chaque portion de tâche, questionnez les causes et les conséquences sur les compétences humaines, la qualité, la responsabilité et la collaboration avant de déléguer à une IA.
 
+## Roadmap
+1ère année : découverte des LLM et exploration de leurs applications.
+2 : mise en pratique des prompts, des flux et de l’orchestration.
+Après, le reste, c’est juste apprendre le métier de l’informatique documentaire.
+
 ## 4. Matériel à préparer
 - Transparents synthétiques par section (cas d’usage, pipeline, démonstration).
 - Extraits de requêtes `chat_completions` et de prompts documentés.
