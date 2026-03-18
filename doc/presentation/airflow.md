@@ -15,6 +15,14 @@ graph LR
 
 Le LLM est une brique dans ce pipeline, assigné à l'extraction d'information.
 
+# DAGs
+
+`Airflow` exécute des DAGs :
+
+- écrits en Python ou `bash`
+- scripts avec annotation
+- expression des dépendances
+
 # Prompt
 
 Le but est de classer un email que je me suis envoyé à moi-même afin d’organiser des notes, idées, liens ou comptes rendus.
@@ -99,7 +107,7 @@ Le format doit être :
 
 # Pour aller plus loin
 
-* les DAGs sont générables par IA
+* les DAGs peuvent être générés par IA
 * l'orchestration est pilotable par IA
 * quelle responsabilité donner à l'agent ?
 * est-ce vraiment utile ?
