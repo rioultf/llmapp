@@ -7,7 +7,7 @@ Airflow orchestre la collecte des emails, l’analyse via un LLM et l’enregist
 ```mermaid
 graph LR
   mail --> poll
-  poll --> analyse
+  poll --> analyse[LLM(prompt, mail)]
   analyse --> indexation
 ```
 
