@@ -9,7 +9,11 @@ subtitle: Agents MCP
 # Objectif
 - Accompagner la préparation de vol libre en délivrant un assistant dialoguant météo, NOTAM et conseils tactiques.
 - Montrer comment un assistant LLM peut structurer une aide à la décision en combinant prompts, données aéronautiques et expertise humaine.
+<<<<<<< HEAD
 - <img src="../../fig/preview.png" />
+=======
+- <img src="../img/preview.png" alt="Illustration associée" />
+>>>>>>> 1a8bf2970a58fa749706c65404645baf18d0a8d2
 
 # Architecture MCP
 
