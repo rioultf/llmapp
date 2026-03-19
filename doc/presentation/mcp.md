@@ -86,3 +86,27 @@ while read line; do
 done
 ```
 
+-- insérer ici la vidéo --
+
+# Services MCP
+
+```python
+# server.py
+from mcp.server.fastmcp import FastMCP
+
+# Create an MCP server
+mcp = FastMCP("Demo")
+
+# Add an addition tool
+@mcp.tool()
+def add(a: int, b: int) -> int:
+    """Add two numbers"""
+    return a + b
+
+@mcp.tool()
+def level(sensor: int) -> int:
+    """Returns the level at given sensor"""
+    if sensor == 1:
+        return 10.0
+    return 24.0
+```
