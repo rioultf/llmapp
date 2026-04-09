@@ -120,4 +120,4 @@ Le format doit être :
 * est-ce vraiment utile ?
   * quel temps de développement ? 
   * combien de ressources de calcul ?
-  * quel temps cela écnomise-t-il ?
+  * quel temps cela économise-t-il ?
