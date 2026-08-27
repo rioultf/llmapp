@@ -236,6 +236,7 @@ Ce format met l’accent sur la méthodologie, l’itération et la documentatio
 # Concepts
 
 * [ai slop](https://www.reddit.com/r/ArtificialInteligence/comments/1ggyl1k/comment/luthnkv/)
+* [forçage IA](https://limitesnumeriques.fr/travaux-productions/ai-forcing)
 * [multi-turn](https://crescendo-the-multiturn-jailbreak.github.io//
 * machine unlearning
 * [prompt injection](https://www.linkedin.com/pulse/newly-discovered-prompt-injection-tactic-threatens-large-anderson/)
